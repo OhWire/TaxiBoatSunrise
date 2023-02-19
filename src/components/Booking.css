@@ -1,0 +1,62 @@
+.Booking-container{
+    margin-top: -5em;
+}
+
+.booking-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;  
+    display: flex;
+    color: white;
+    background-color: transparent;
+}
+
+.booking-container > label{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 40px;
+    letter-spacing: 0.08em;
+    text-shadow: 3px 1px 2px rgba(29, 29, 28, 0.2);
+}
+
+.booking-container > select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding:  0.5em 0.2em 0.5em 0.2em; 
+    font-size: 1em;
+    border-radius: 8px;
+    border: 3px solid black;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.booking-container > input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding:  0.5em; 
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 1660px) {
+    .booking-container{
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .booking-container > label {
+        margin: 10px;
+    }
+
+    .booking-container >input {
+        padding: 0.2em;
+    }
+  }
